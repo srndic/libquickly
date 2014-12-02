@@ -12,6 +12,7 @@ Dependencies
 
 Please install the following dependencies before building
 libquickly:
+
  - CMake, version 2.8
  - a C++ compiler, though only g++ was tested
  - Boost Thread, Ubuntu 14.04 version. 
@@ -20,14 +21,13 @@ Building libquickly
 ====================
 
 Libquickly uses the usual CMake procedure for building. Here are the 
-individual steps. 
+individual steps (assuming you are in the root of libquickly, i.e., 
+where the README file is)::
 
-First cd to the root of libquickly (where the README file is). 
-::
-$ mkdir build
-$ cd build
-$ cmake -DMAKE_TESTS=1 ..
-$ make
+  mkdir build
+  cd build
+  cmake -DMAKE_TESTS=1 ..
+  make
 
 Installation
 ===================
@@ -35,8 +35,8 @@ Installation
 To install libquickly, cd to the build directory as created in 
 the build procedure description above and type::
 
-$ make install
+  make install
 
 On Ubuntu, you should use sudo::
 
-$ sudo make install
+  sudo make install
