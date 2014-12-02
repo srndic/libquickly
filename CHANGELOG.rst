@@ -9,7 +9,7 @@ Copyright 2014 Nedim Srndic, University of Tuebingen
 
 - Migrated to Git 
 
-19. Jan 2012, Version 1.0
+19. Jan 2012, version 1.0
 ===========================
 
 - Initial release

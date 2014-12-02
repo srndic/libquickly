@@ -23,7 +23,7 @@ Libquickly uses the usual CMake procedure for building. Here are the
 individual steps. 
 
 First cd to the root of libquickly (where the README file is). 
-
+::
 $ mkdir build
 $ cd build
 $ cmake -DMAKE_TESTS=1 ..
@@ -33,10 +33,10 @@ Installation
 ===================
 
 To install libquickly, cd to the build directory as created in 
-the build procedure description above and type:
+the build procedure description above and type::
 
 $ make install
 
-On Ubuntu, you should use sudo:
+On Ubuntu, you should use sudo::
 
 $ sudo make install

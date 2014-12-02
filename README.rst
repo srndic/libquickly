@@ -11,12 +11,12 @@ Copyright 2014 Nedim Srndic, University of Tuebingen
 Installation and Setup
 =======================
 
-Please consult the INSTALL.rst file. 
+Please consult the ``INSTALL.rst`` file. 
 
 Usage
 =================
 
-See the test/main.cpp file for a usage example.
+See the ``test/main.cpp`` file for a usage example.
 
 Licensing
 =================
