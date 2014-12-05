@@ -32,12 +32,13 @@ macro(require_library RL_LIBRARY_NAME)
 endmacro(require_library)
 
 # If boost_thread is not installed, do not proceed
-require_library(boost_thread-mt)
+require_library(boost_thread)
+require_library(boost_system)
 
 # Set some important names
 set(QUICKLY_SHARED_LIBRARY_NAME quickly)
 set(QUICKLY_STATIC_LIBRARY_NAME quickly-static)
-set(QUICKLY_REQUIRED_LIBRARIES boost_thread-mt)
+set(QUICKLY_REQUIRED_LIBRARIES boost_thread boost_system)
 
 # Set default compile flags for GCC
 if(CMAKE_COMPILER_IS_GNUCXX)
