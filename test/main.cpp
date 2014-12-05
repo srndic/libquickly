@@ -25,8 +25,8 @@
 #include <cstring>
 #include <vector>
 
-#include "quickly/ThreadPool.h"
-#include "quickly/DataAction.h"
+#include "../src/ThreadPool.h"
+#include "../src/DataAction.h"
 
 using std::cout;
 using std::endl;
