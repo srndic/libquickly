@@ -5,7 +5,7 @@ LIBQUICKLY INSTALLATION NOTES
 Copyright 2014 Nedim Srndic, University of Tuebingen
 
 Libquickly is C++ software and uses CMake for building. It was 
-developed on Ubuntu 12.04 and tested on Ubuntu 14.04. 
+developed and tested on Ubuntu 14.04. 
 
 Dependencies
 ====================
@@ -15,7 +15,7 @@ libquickly:
 
  - CMake, version 2.8
  - a C++ compiler, though only g++ was tested
- - Boost Thread, Ubuntu 14.04 version. 
+ - Boost Thread and Boost System, Ubuntu 14.04 version. 
 
 Building libquickly
 ====================
